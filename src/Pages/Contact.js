@@ -41,7 +41,7 @@ export default function ReturnPolicy() {
   return (
     <div className="">
       <div className="relative w-full h-96">
-        <img src="image.jpg" alt="" className="w-full h-full object-cover" />
+        <img src="https://lumbinihandicraft.infinitydevelopmententerprise.com/herobanner.jpg" alt="" className="w-full h-full object-cover" />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-white bg-black/30">
           <h1 className="text-4xl font-bold mb-2">Contact Us</h1>
           <p className="text-lg">Home / Contact</p>

@@ -3,7 +3,7 @@ export default function ReturnPolicy() {
     <div className="">
       <div className="relative w-full h-96">
         <img
-          src="image.jpg"
+          src="https://lumbinihandicraft.infinitydevelopmententerprise.com/herobanner.jpg"
           alt=""
           className="w-full h-full object-cover"
         />
@@ -12,10 +12,34 @@ export default function ReturnPolicy() {
           <p className="text-lg">Home / Returns</p>
         </div>
       </div>
-{/*  */}
+      {/*  */}
       <div className="flex justify-between  m-16">
         <div>
           <h1 className="text-2xl">Return Poilcy</h1>
+          <div className="max-w-3xl space-y-6">
+            <p>
+              We want you to be fully satisfied with your purchase. If you are
+              not satisfied, you may return the product under the following
+              conditions.
+            </p>
+
+            <div>
+              <h2 className="text-xl font-semibold">Return Eligibility</h2>
+              <ul className="list-disc ml-6 mt-2">
+                <li>Returns accepted within 7 days of delivery</li>
+                <li>Item must be unused and in original packaging</li>
+                <li>Invoice or order ID required</li>
+              </ul>
+            </div>
+
+            <div>
+              <h2 className="text-xl font-semibold">Refund Process</h2>
+              <p className="mt-2">
+                Once we receive and inspect your item, refunds will be processed
+                within 5-10 days.
+              </p>
+            </div>
+          </div>
         </div>
         <div>
           <h1 className="text-xl">Follow Us</h1>

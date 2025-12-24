@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <div>
-      <div className="  pt-16  gap-10 flex ">
+      <div className="  pt-16 z-0 gap-10 flex ">
         <div className="flex-1">
           <h2 className="text-3xl font-bold">Inspired By Craftsmanship</h2>
           <p className="font-semibold mt-4">Crafting with a soul</p>
@@ -15,7 +15,7 @@ export default function About() {
         <div className="flex-1 items-center">
           <div className="w-full h-64 rounded-xl overflow-hidden relative">
             <img
-              src="/video-cover.jpg"
+              src="https://lumbinihandicraft.infinitydevelopmententerprise.com/home-collections/collection2.jpg"
               alt=""
               className="w-full h-full object-cover"
             />
@@ -59,7 +59,7 @@ export default function About() {
       </div>
 
       {/* MIDDLE PART */}
-      <div className="p-10 w-full  bg-black flex justify-around text-white mt-12">
+      <div className="p-10 w-full z-10 bg-black flex justify-around text-white mt-12">
         <div>
           <h1 className="font-bold">High Quality</h1>
           <p className="text-xs">high quality stuffs</p>

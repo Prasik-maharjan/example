@@ -44,7 +44,7 @@ export default function AboutUs() {
         <div>
           <img
             className="w-full h-40 object-cover rounded-lg"
-            src="/image.jpg"
+            src="https://lumbinihandicraft.infinitydevelopmententerprise.com/home-collections/collection2.jpg "
             alt=""
           />
           <p>
